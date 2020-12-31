@@ -1,0 +1,6 @@
+1) don't start a project with a name contains TEST. Better name is mysite
+2) don't use underscores at app name (app_pages). Simple pages is better.
+3) installed apps     'Pages.apps.PagesConfig',
+4) models, shell
+5) superuser, admin
+6) from .models import Text  admin.site.register(Text)

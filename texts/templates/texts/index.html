@@ -1,0 +1,9 @@
+<h2> this is index.html </h2>
+<!--<p> this is context data - {{ data }} </p> -->
+
+<h3> Message list board </h3>
+{% for message in message_list %}
+<ul>
+  <li><a href="{{ message.id }}"> {{ message.id }} - {{ message.text }} / {{ message.key}} </a></li>
+</ul>
+{% endfor %}

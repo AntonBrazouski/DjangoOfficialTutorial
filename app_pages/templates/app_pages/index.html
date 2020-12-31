@@ -1,0 +1,9 @@
+{% if latest_text_list %}
+  <ul>
+    {% for text in latest_text_list %}
+      <li><a href="/{{ text.id }}/"> {{ text.text }} </a>  </li>
+    {% endfor %}
+  </ul>
+{% else %}
+  <p> No texts are available. </p>
+{% endif %}
